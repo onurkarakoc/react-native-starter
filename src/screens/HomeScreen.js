@@ -20,6 +20,9 @@ const HomeScreen = ({ navigation }) => {
       <Button 
       title="Go to Color Demo"
       onPress={() => navigation.navigate('Color')}/>
+      <Button 
+      title="Go to Square Color Adjuster Demo"
+      onPress={() => navigation.navigate('Square')}/>
     </SafeAreaView>
       
   );

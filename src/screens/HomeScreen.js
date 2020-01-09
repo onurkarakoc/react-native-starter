@@ -23,6 +23,9 @@ const HomeScreen = ({ navigation }) => {
       <Button 
       title="Go to Square Color Adjuster Demo"
       onPress={() => navigation.navigate('Square')}/>
+      <Button 
+      title="Go to Text Demo"
+      onPress={() => navigation.navigate('Text')}/>
     </SafeAreaView>
       
   );
